@@ -5,9 +5,8 @@ public class StaticKeyword {
         Human one = new Human("hemanth", 22, 14000);
         Human two = new Human("prakash", 40, 250000);
         System.out.println("Name of first person:\n" + one.name);
-        System.out.println(one.population);
         System.out.println("Name of second person:\n" + two.name);
-        System.out.println(two.population);
+        System.out.println("Total population:\n"+two.population);
 
     }
 }
