@@ -1,0 +1,13 @@
+package FunctionsOrMethods;
+
+public class Intro {
+    public static void main(String[] args) {
+        for (int i = 0; i < 4; i++) {
+            function();
+        }
+    }
+
+    public static void function() {
+        System.out.println("Hello World");
+    }
+}
